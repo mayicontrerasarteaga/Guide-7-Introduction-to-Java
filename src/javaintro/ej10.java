@@ -4,19 +4,21 @@
  */
 package javaintro;
 import java.util.Scanner;
+
 /**
  *
  * @author Nezuko
  */
-public class Prueba {
+public class ej10 {
     
     public static void main(String[] args) {
         
+        //ej10 For
         Scanner in = new Scanner(System.in);
-    
+        
         int num1 = 0;
-        int num2 = 0;
-        int num3 = 0;
+        int num_2 = 0;
+        int num_3 = 0;
         int num4 = 0;
         
     
@@ -27,14 +29,14 @@ public class Prueba {
             num1 = in.nextInt();            
         }
         
-        while (num2 < 1 || num2 > 20) {
+        while (num_2 < 1 || num_2 > 20) {
             System.out.println("Ingrese número 2:");
-            num2 = in.nextInt();            
+            num_2 = in.nextInt();            
         }
         
-        while (num3 < 1 || num3 > 20) {
+        while (num_3 < 1 || num_3 > 20) {
             System.out.println("Ingrese número 3:");
-            num3 = in.nextInt();            
+            num_3 = in.nextInt();            
         }
         
         while (num4 < 1 || num4 > 20) {
@@ -49,14 +51,14 @@ public class Prueba {
         }
         System.out.println("");
         
-        System.out.print(num2);
-        for (int i = 0; i < num2; i++) {
+        System.out.print(num_2);
+        for (int i = 0; i < num_2; i++) {
             System.out.print("*");            
         }
         System.out.println("");
         
-        System.out.print(num3);
-        for (int i = 0; i < num3; i++) {
+        System.out.print(num_3);
+        for (int i = 0; i < num_3; i++) {
             System.out.print("*");            
         }
         System.out.println("");
